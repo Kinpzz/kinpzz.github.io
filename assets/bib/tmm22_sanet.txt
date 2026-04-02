@@ -1,0 +1,9 @@
+@article{lin2021structured,
+  title={Structured attention network for referring image segmentation},
+  author={Lin, Liang and Yan, Pengxiang and Xu, Xiaoqian and Yang, Sibei and Zeng, Kun and Li, Guanbin},
+  journal={IEEE Transactions on Multimedia},
+  volume={24},
+  pages={1922--1932},
+  year={2021},
+  publisher={IEEE}
+}

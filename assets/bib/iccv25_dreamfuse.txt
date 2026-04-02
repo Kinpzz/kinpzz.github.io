@@ -1,0 +1,7 @@
+@inproceedings{huang2025dreamfuse,
+  title={Dreamfuse: Adaptive image fusion with diffusion transformer},
+  author={Huang, Junjia and Yan, Pengxiang and Liu, Jiyang and Wu, Jie and Wang, Zhao and Wang, Yitong and Lin, Liang and Li, Guanbin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={17292--17301},
+  year={2025}
+}

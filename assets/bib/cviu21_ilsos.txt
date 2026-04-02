@@ -1,0 +1,10 @@
+@article{li2021instance,
+  title={Instance-Level Salient Object Segmentation},
+  author={Li, Guanbin and Yan, Pengxiang and Xie, Yuan and Wang, Guisheng and Lin, Liang and Yu, Yizhou},
+  journal={Computer Vision and Image Understanding},
+  volume={207},
+  pages={103207},
+  year={2021},
+  doi={10.1016/j.cviu.2021.103207},
+  url={https://www.sciencedirect.com/science/article/pii/S1077314221000515}
+}

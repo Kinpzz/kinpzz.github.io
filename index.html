@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <title>Pengxiang Yan | ByteDance</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The academic personal homepage of Pengxiang Yan.">
+  
+  <meta name="keywords" content="pengxiang yan, computer vision, bytedance">
+  
+  
+  <link rel="canonical" href="https://kinpzz.com/" />
+  
+
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+  <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
+
+  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="./assets/css/font.css">
+  
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/publications.css">
+  
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div id="theme-toggle-container"
+        style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--header-bg); border: 1px solid var(--border-color); padding: 10px; border-radius: 50%; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.05); transition: transform 0.2s ease;">
+        <i class="fas fa-moon" id="theme-toggle" style="font-size: 1.2rem; color: var(--text-main);"></i>
+      </div>
+
+      <div class="name-stack">
+        <h1>Pengxiang Yan</h1>
+        
+        <div class="name-native">颜鹏翔</div>
+        
+      </div>
+
+      
+      <position style="font-size:0.98rem;">Researcher</position>
+      <br>
+      
+      
+      <a href="https://www.bytedance.com/" rel="noopener">
+        <autocolor>ByteDance</autocolor>
+      </a>
+      <br>
+      
+      
+      <email>yanpx (at) live.com</email>
+      
+
+      <br>
+      <br>
+      <div class="social-icons">
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?hl=zh-CN&user=UCCiN_sAAAAJ">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>
+        
+
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/Kinpzz">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+
+        
+      </div>
+    </header>
+    <section>
+
+      <h2 id="about-me">About Me</h2>
+
+<p>I am currently a Researcher at Intelligent Creation, ByteDance. I obtained my M.S. degree in computer science from Sun Yat-sen University in 2021, advised by <a href="http://guanbinli.com/">Prof. Guanbin Li</a> and <a href="http://linliang.net/">Prof. Liang Lin</a>. Before that, I received the B.E. degree in software engineering from Sun Yat-sen University in 2018.</p>
+
+<h2 id="research-interests">Research Interests</h2>
+
+<ul>
+  <li><strong>Image Generation &amp; Editing:</strong> AIGC, diffusion model,  RLHF, image fusion, multi-layer image generation, and controllable visual content creation.</li>
+  <li><strong>Pixel Understanding:</strong> Salient object detection/segmentation for video and image, referring image segmentation, open-vocabulary segmentation.</li>
+</ul>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[2026-03]</strong> One paper was accepted to TPAMI.</li>
+  <li><strong>[2025-10]</strong> One paper was selected as an ICCV 2025 Highlight.</li>
+  <li><strong>[2025-06]</strong> Two papers were accepted to ICCV 2025.</li>
+  <li><strong>[2023-02]</strong> One paper was accepted to CVPR 2023.</li>
+  <li><strong>[2022-01]</strong> One paper was accepted to ISBI 2022.</li>
+  <li><strong>[2021-11]</strong> One paper was accepted to AAAI 2022.</li>
+  <li><strong>[2021-04]</strong> One paper was published in TMM.</li>
+  <li><strong>[2021-03]</strong> One paper was published in CVIU.</li>
+  <li><strong>[2019-07]</strong> One paper was accepted to ICCV 2019.</li>
+</ul>
+
+<h2 id="publications" style="margin-bottom: 20px;">Publications</h2>
+<p style="font-size: 12px; color: var(--text-main); margin-top: 15px; margin-bottom: 30px;">* Equal contribution</p>
+<div class="publications">
+<ol class="bibliography">
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/iccv25_dreamfuse.jpg" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/iccv25_dreamfuse.jpg')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">TPAMI</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="">DreamFuse: Towards Realistic and Seamless Image Fusion Across Diverse Scenarios</a></div>
+      <div class="author">Junjia Huang, <span class="author-highlight">Pengxiang Yan</span>, Jiyang Liu, Jie Wu, Zhao Wang, Yitong Wang, Xinglong Wu, Liang Lin, Guanbin Li</div>
+      <div class="periodical"><em>IEEE Transactions on Pattern Analysis and Machine Intelligence <strong>(TPAMI)</strong>, accepted, 2026. IF: 23.6, JCR Q1.</em>
+      </div>
+    <div class="links">
+      
+      
+       
+      <a href="https://ll3rd.github.io/DreamFuse/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-link"></i> Project Page</a>
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/tpami26_dreamfuse.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/iccv25_dreamfuse.jpg" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/iccv25_dreamfuse.jpg')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">ICCV</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://arxiv.org/abs/2504.08291">DreamFuse: Adaptive Image Fusion with Diffusion Transformer</a></div>
+      <div class="author">Junjia Huang*, <span class="author-highlight">Pengxiang Yan</span>*, Jiyang Liu*, Jie Wu, Zhao Wang, Yitong Wang, Liang Lin, Guanbin Li</div>
+      <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2025.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/abs/2504.08291" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+       
+      <a href="https://github.com/LL3RD/DreamFuse-Code" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-code"></i> Code</a>
+      
+       
+      <a href="https://ll3rd.github.io/DreamFuse/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-link"></i> Project Page</a>
+      
+      
+      <a href="https://huggingface.co/datasets/LL3RD/DreamFuse" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-database"></i> Dataset</a>
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/iccv25_dreamfuse.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/iccv25_dreamlayer.jpg" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/iccv25_dreamlayer.jpg')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">ICCV</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://arxiv.org/abs/2503.12838">DreamLayer: Simultaneous Multi-Layer Generation via Diffusion Model</a></div>
+      <div class="author">Junjia Huang*, <span class="author-highlight">Pengxiang Yan</span>*, Jinhang Cai, Jiyang Liu, Zhao Wang, Yitong Wang, Xinglong Wu, Guanbin Li</div>
+      <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2025.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/abs/2503.12838" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+      
+       
+      <a href="https://ll3rd.github.io/DreamLayer/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-link"></i> Project Page</a>
+      
+      
+      <a href="https://huggingface.co/datasets/LL3RD/DreamLayer" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-database"></i> Dataset</a>
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/iccv25_dreamlayer.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+       
+      <strong> <i style="color:#e74d3c">Highlight</i></strong>
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/cvpr23_freeseg.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/cvpr23_freeseg.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">CVPR</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://arxiv.org/abs/2303.17225">FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation</a></div>
+      <div class="author">Jie Qin, Jie Wu, <span class="author-highlight">Pengxiang Yan</span>, Ming Li, Yuxi Ren, Xuefeng Xiao, Yitong Wang, Rui Wang, Shilei Wen, Xin Pan, Xingang Wang</div>
+      <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/abs/2303.17225" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+       
+      <a href="https://github.com/bytedance/FreeSeg" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-code"></i> Code</a>
+      
+       
+      <a href="https://freeseg.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-link"></i> Project Page</a>
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/cvpr23_freeseg.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/aaai22_udasod.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/aaai22_udasod.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">AAAI</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://arxiv.org/abs/2202.13170">Unsupervised Domain Adaptive Salient Object Detection Through Uncertainty-Aware Pseudo-Label Learning</a></div>
+      <div class="author"><span class="author-highlight">Pengxiang Yan</span>*, Ziyi Wu*, Mengmeng Liu, Kun Zeng, Liang Lin, Guanbin Li</div>
+      <div class="periodical"><em>Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2022.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/abs/2202.13170" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+       
+      <a href="https://github.com/Kinpzz/UDASOD-UPL" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-code"></i> Code</a>
+      
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/aaai22_udasod.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/isbi22_blastocyst.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/isbi22_blastocyst.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">ISBI</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://guanbinli.com/papers/Early_Prediction_of_Blastocyst_Development_via_Time-Lapse_Video_Analysis.pdf">Early Prediction of Blastocyst Development via Time-Lapse Video Analysis</a></div>
+      <div class="author">Xiang Xie*, <span class="author-highlight">Pengxiang Yan</span>*, Fang-Ying Cheng*, Feng Gao, Qingyun Mai, Guanbin Li</div>
+      <div class="periodical"><em>IEEE 19th International Symposium on Biomedical Imaging <strong>(ISBI)</strong>, 2022.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://guanbinli.com/papers/Early_Prediction_of_Blastocyst_Development_via_Time-Lapse_Video_Analysis.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+      
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/isbi22_blastocyst.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/tmm22_sanet.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/tmm22_sanet.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">TMM</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://www.sysu-hcp.net/userfiles/files/2022/01/22/4b6f94782accc27a.pdf">Structured Attention Network for Referring Image Segmentation</a></div>
+      <div class="author">Liang Lin*, <span class="author-highlight">Pengxiang Yan</span>*, Xiaoqian Xu, Sibei Yang, Kun Zeng, Guanbin Li</div>
+      <div class="periodical"><em>IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2022. IF: 8.182, JCR Q1.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://www.sysu-hcp.net/userfiles/files/2022/01/22/4b6f94782accc27a.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+      
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/tmm22_sanet.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/cviu21_ilsos.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/cviu21_ilsos.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">CVIU</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://guanbinli.com/papers/3-Instance-level%20salient%20object%20segmentation.pdf">Instance-Level Salient Object Segmentation</a></div>
+      <div class="author">Guanbin Li, <span class="author-highlight">Pengxiang Yan</span>, Yuan Xie, Guisheng Wang, Liang Lin, Yizhou Yu</div>
+      <div class="periodical"><em>Computer Vision and Image Understanding <strong>(CVIU)</strong>, 2021. IF: 3.876, JCR Q2.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://guanbinli.com/papers/3-Instance-level%20salient%20object%20segmentation.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+       
+      <a href="https://github.com/Kinpzz/MSRNet-CVIU" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-code"></i> Code</a>
+      
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/cviu21_ilsos.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-media" style="position: relative;padding-right: 18px;padding-left: 15px;">
+     
+    <div class="teaser-frame">
+      <img src="./assets/img/papers/iccv19_ssvsod.png" class="teaser img-fluid z-depth-1" onclick="showImageModal('./assets/img/papers/iccv19_ssvsod.png')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+    </div>
+     
+    <abbr class="badge" style="font-family:'Fira Code', monospace !important; font-weight:500;">ICCV</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9 pub-body" style="position: relative;padding-right: 15px;padding-left: 18px;">
+      <div class="title"><a href="https://arxiv.org/abs/1908.04051">Semi-Supervised Video Salient Object Detection Using Pseudo-Labels</a></div>
+      <div class="author"><span class="author-highlight">Pengxiang Yan</span>, Guanbin Li, Yuan Xie, Zhen Li, Chuan Wang, Tianshui Chen, Liang Lin</div>
+      <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2019.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/abs/1908.04051" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-file-pdf"></i> PDF</a>
+      
+       
+      <a href="https://github.com/Kinpzz/RCRNet-Pytorch" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-code"></i> Code</a>
+      
+      
+      
+       
+      <a class="btn btn-sm z-depth-0" onclick="showBibtexModal('/assets/bib/iccv19_ssvsod.txt')" style="font-size:12px; cursor:pointer;"><i class="fas fa-quote-right"></i> BibTeX</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+</ol>
+</div>
+
+<h2 id="services">Services</h2>
+
+<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+
+<ul style="margin:0 0 20px;">
+  <li><a href="https://iccv.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV)</autocolor></a></li>
+  <li><a href="https://cvpr.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a></li>
+  <li><a href="https://eccv.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a></li>
+  <li><a href="https://neurips.cc/"><autocolor>Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a></li>
+  <li><a href="https://aaai.org/conference/aaai/"><autocolor>AAAI Conference on Artificial Intelligence (AAAI)</autocolor></a></li>
+</ul>
+
+<h2 id="awards">Awards</h2>
+
+<ul>
+  <li><strong>[2021]</strong> Outstanding Graduate, Sun Yat-sen University.</li>
+  <li><strong>[2017]</strong> Undergraduate National Scholarship, Sun Yat-sen University.</li>
+</ul>
+
+
+      <br>
+      <br>
+
+      
+      <div style="text-align: center; color: var(--text-main); font-family: 'Fira Code', monospace !important; margin-top: 3rem; margin-bottom: 2rem; opacity: 0.8;">
+        <small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small>
+      </div>
+      
+
+    </section>
+    <footer>
+      <div class="sidebar-updated">
+        Last updated: Apr 02, 2026
+      </div>
+    </footer>
+  </div>
+  <script src="/assets/js/scale.fix.js"></script>
+  
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-111540567-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleContainer = document.getElementById('theme-toggle-container');
+    themeToggleContainer.addEventListener('mouseover', () => themeToggleContainer.style.transform = 'scale(1.1)');
+    themeToggleContainer.addEventListener('mouseout', () => themeToggleContainer.style.transform = 'scale(1)');
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    if (currentTheme === 'dark') {
+      themeToggle.classList.remove('fa-moon');
+      themeToggle.classList.add('fa-sun');
+    }
+    themeToggleContainer.addEventListener('click', () => {
+      let theme = document.documentElement.getAttribute('data-theme');
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+        themeToggle.classList.remove('fa-sun');
+        themeToggle.classList.add('fa-moon');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        themeToggle.classList.remove('fa-moon');
+        themeToggle.classList.add('fa-sun');
+      }
+    });
+  </script>
+
+
+
+
+  <!-- Global Font Enforcer -->
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    span,
+    div,
+    button,
+    input,
+    textarea,
+    pre,
+    code,
+    table,
+    th,
+    td,
+    .title,
+    .author,
+    .periodical,
+    .badge,
+    strong,
+    em,
+    abbr {
+      font-family: "Fira Code", monospace !important;
+    }
+
+    
+
+  /* Premium Author Name Highlight */
+    .author-highlight {
+      font-weight: 600;
+      color: var(--text-heading);
+    }
+
+  /* Beautiful UI Buttons */
+    .modal-btn {
+      background-color: var(--code-bg);
+      color: var(--text-heading);
+      border: none;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      font-family: "Fira Code", monospace !important;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .name-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.42rem;
+      margin-bottom: 1.7rem;
+    }
+
+    .name-stack h1 {
+      margin: 0;
+      line-height: 1.06;
+      font-size: 1.96rem;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+    }
+
+    .name-native {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.3rem 1rem 0.2rem;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(90deg, transparent, var(--header-bg), transparent);
+      color: var(--text-heading);
+      font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif !important;
+      font-size: 1.96rem;
+      line-height: 1.1;
+      letter-spacing: 0.16em;
+      text-indent: 0.16em;
+    }
+
+    header position {
+      display: inline-block;
+      margin-bottom: 0.95rem;
+      line-height: 1.68;
+    }
+
+    header autocolor {
+      display: inline-block;
+      margin-bottom: 0.95rem;
+      line-height: 1.68;
+    }
+
+    header email {
+      display: inline-block;
+      margin-top: 0.18rem;
+      line-height: 1.78;
+    }
+
+    header .social-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1.65rem;
+    }
+
+    header .social-icons a {
+      margin: 0 !important;
+    }
+
+    .sidebar-updated {
+      color: var(--text-main);
+      font-size: 0.85rem;
+      line-height: 1.75;
+      opacity: 0.82;
+      font-family: "Fira Code", monospace !important;
+    }
+
+    .teaser-frame {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background: linear-gradient(135deg, var(--header-bg), var(--code-bg));
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .teaser-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .modal-btn:hover {
+      background-color: var(--border-color);
+      transform: translateY(-2px);
+    }
+
+    @media print, screen and (min-width: 961px) {
+      header {
+        width: 272px !important;
+        padding-top: 4.3em !important;
+      }
+
+      section {
+        width: 730px !important;
+      }
+
+      footer {
+        width: 272px !important;
+        top: 50vh !important;
+        bottom: auto !important;
+      }
+    }
+  </style>
+
+  <!-- BibTex Modal -->
+  <div id="bibtex-modal"
+    style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); backdrop-filter: blur(4px); align-items:center; justify-content:center; padding: 20px;">
+    <div
+      style="background-color:var(--bg-color); width:100%; max-width:650px; border-radius:16px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display:flex; flex-direction:column; overflow:hidden;">
+
+      <div
+        style="display:flex; justify-content:space-between; align-items:center; padding: 15px 20px; border-bottom: 1px solid var(--border-color); background: var(--header-bg);">
+        <h4
+          style="margin:0; font-weight:600; font-size: 1.1rem; color:var(--text-heading); font-family: 'Fira Code', monospace !important;">
+          <i class="fas fa-quote-right" style="margin-right:8px; color:var(--badge-orange);"></i>BibTeX
+        </h4>
+        <span id="close-bibtex"
+          style="cursor:pointer; font-size:1.6rem; color:var(--text-main); line-height:1; padding: 0 5px;">&times;</span>
+      </div>
+
+      <div style="padding: 24px; overflow-y:auto; max-height:60vh;">
+        <pre id="bibtex-content"
+          style="margin:0; background:transparent; padding:0; border:none; color:var(--text-main); white-space:pre-wrap; font-size:0.9rem; line-height:1.5; font-family: 'Fira Code', monospace !important;"></pre>
+      </div>
+
+      <div
+        style="padding: 15px 20px; border-top: 1px solid var(--border-color); background: var(--header-bg); text-align:right;">
+        <button id="copy-bibtex" class="modal-btn"><i class="fas fa-copy"></i> Copy to Clipboard</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function showBibtexModal(url) {
+      const modal = document.getElementById('bibtex-modal');
+      modal.style.display = 'flex';
+
+      const contentBox = document.getElementById('bibtex-content');
+      contentBox.style.color = 'var(--text-main)';
+      contentBox.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading local static file...';
+
+      const copyBtn = document.getElementById('copy-bibtex');
+      copyBtn.innerHTML = '<i class="fas fa-copy"></i> Copy to Clipboard';
+      copyBtn.style.background = 'var(--code-bg)';
+      copyBtn.style.color = 'var(--text-heading)';
+
+      fetch(url)
+        .then(response => {
+          if (!response.ok) throw new Error('Local file missing');
+          return response.text();
+        })
+        .then(data => {
+          contentBox.innerText = data;
+        })
+        .catch(error => {
+          contentBox.innerText = "Local fetch failed. Could not load bibtex.";
+        });
+    }
+
+    document.getElementById('close-bibtex').onclick = function () {
+      document.getElementById('bibtex-modal').style.display = 'none';
+    }
+
+    document.getElementById('bibtex-modal').onclick = function (event) {
+      if (event.target === this) {
+        this.style.display = 'none';
+      }
+    }
+
+    document.getElementById('copy-bibtex').onclick = function () {
+      const contentBox = document.getElementById('bibtex-content');
+      const content = contentBox.innerText;
+      const btn = this;
+
+      navigator.clipboard.writeText(content).then(() => {
+        btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        btn.style.background = 'var(--badge-orange)';
+        btn.style.color = '#fff';
+        setTimeout(() => {
+          btn.innerHTML = '<i class="fas fa-copy"></i> Copy to Clipboard';
+          btn.style.background = 'var(--code-bg)';
+          btn.style.color = 'var(--text-heading)';
+        }, 2000);
+      }).catch(err => {
+        console.error('Copy failed', err);
+      });
+    }
+  </script>
+
+  <!-- Image Modal -->
+  <div id="image-modal"
+    style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); backdrop-filter: blur(4px); align-items:center; justify-content:center; padding: 20px;">
+    <div
+      style="background-color:var(--bg-color); width:100%; max-width:800px; border-radius:16px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display:flex; flex-direction:column; overflow:hidden;">
+
+      <div
+        style="display:flex; justify-content:space-between; align-items:center; padding: 15px 20px; border-bottom: 1px solid var(--border-color); background: var(--header-bg);">
+        <h4
+          style="margin:0; font-weight:600; font-size: 1.1rem; color:var(--text-heading); font-family: 'Fira Code', monospace !important;">
+          <i class="fas fa-image" style="margin-right:8px; color:var(--badge-orange);"></i>Image Preview
+        </h4>
+        <span id="close-image"
+          style="cursor:pointer; font-size:1.6rem; color:var(--text-main); line-height:1; padding: 0 5px;">&times;</span>
+      </div>
+
+      <div
+        style="padding: 24px; overflow-y:auto; max-height:75vh; text-align:center; display:flex; justify-content:center; align-items:center;">
+        <img id="image-content" src=""
+          style="max-width:100%; max-height:65vh; height:auto; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function showImageModal(url) {
+      const modal = document.getElementById('image-modal');
+      document.getElementById('image-content').src = url;
+      modal.style.display = 'flex';
+    }
+
+    document.getElementById('close-image').onclick = function () {
+      document.getElementById('image-modal').style.display = 'none';
+      document.getElementById('image-content').src = '';
+    }
+
+    document.getElementById('image-modal').onclick = function (event) {
+      if (event.target === this) {
+        this.style.display = 'none';
+        document.getElementById('image-content').src = '';
+      }
+    }
+  </script>
+
+  <!-- News Truncation JS -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const headers = document.querySelectorAll("h2");
+      let newsHeader = null;
+      headers.forEach(h => {
+        if (h.textContent.trim() === "News") newsHeader = h;
+      });
+      
+      if (newsHeader) {
+        let currentNode = newsHeader.nextElementSibling;
+        let newsList = null;
+        
+        // Find the first UL after the News header
+        while (currentNode && currentNode.tagName !== "H2") {
+          if (currentNode.tagName === "UL") {
+            newsList = currentNode;
+            break;
+          }
+          currentNode = currentNode.nextElementSibling;
+        }
+        
+        if (newsList) {
+          const items = newsList.querySelectorAll("li");
+          const MAX_ITEMS = 3;
+          
+          if (items.length > MAX_ITEMS) {
+            for (let i = MAX_ITEMS; i < items.length; i++) {
+              items[i].style.display = "none";
+            }
+            
+            const btnContainer = document.createElement("div");
+            btnContainer.style.textAlign = "right";
+            btnContainer.style.marginTop = "-5px";
+            btnContainer.style.marginBottom = "25px";
+            btnContainer.style.paddingRight = "15px";
+
+            const btn = document.createElement("a");
+            btn.className = "btn btn-sm z-depth-0";
+            btn.style.fontSize = "12px";
+            btn.style.cursor = "pointer";
+            btn.innerHTML = `<i class="fas fa-angle-down"></i> More`;
+            
+            let expanded = false;
+            btn.onclick = function() {
+              expanded = !expanded;
+              for (let i = MAX_ITEMS; i < items.length; i++) {
+                items[i].style.display = expanded ? "list-item" : "none";
+              }
+              btn.innerHTML = expanded ? `<i class="fas fa-angle-up"></i> Less` : `<i class="fas fa-angle-down"></i> More`;
+            };
+            
+            btnContainer.appendChild(btn);
+            newsList.parentNode.insertBefore(btnContainer, newsList.nextSibling);
+          }
+        }
+      }
+    });
+  </script>
+
+  </body>
+
+</html>

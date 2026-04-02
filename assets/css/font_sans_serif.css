@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+body {
+    background-color: var(--bg-color);
+    padding:50px;
+    font: 14px/1.5 'Fira Code', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    color: var(--text-main);
+    font-weight:400;
+  }

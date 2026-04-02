@@ -1,0 +1,7 @@
+@inproceedings{qin2023freeseg,
+  title={Freeseg: Unified, universal and open-vocabulary image segmentation},
+  author={Qin, Jie and Wu, Jie and Yan, Pengxiang and Li, Ming and Yuxi, Ren and Xiao, Xuefeng and Wang, Yitong and Wang, Rui and Wen, Shilei and Pan, Xin and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19446--19455},
+  year={2023}
+}

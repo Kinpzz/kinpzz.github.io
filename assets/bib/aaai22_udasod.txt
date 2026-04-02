@@ -1,0 +1,9 @@
+@inproceedings{yan2022unsupervised,
+  title={Unsupervised domain adaptive salient object detection through uncertainty-aware pseudo-label learning},
+  author={Yan, Pengxiang and Wu, Ziyi and Liu, Mengmeng and Zeng, Kun and Lin, Liang and Li, Guanbin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={3},
+  pages={3000--3008},
+  year={2022}
+}

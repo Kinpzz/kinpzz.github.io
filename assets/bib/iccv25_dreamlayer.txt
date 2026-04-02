@@ -1,0 +1,7 @@
+@inproceedings{huang2025dreamlayer,
+  title={DreamLayer: Simultaneous Multi-Layer Generation via Diffusion Model},
+  author={Huang, Junjia and Yan, Pengxiang and Cai, Jinhang and Liu, Jiyang and Wang, Zhao and Wang, Yitong and Wu, Xinglong and Li, Guanbin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3357--3366},
+  year={2025}
+}

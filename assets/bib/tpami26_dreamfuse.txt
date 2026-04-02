@@ -1,0 +1,7 @@
+@article{huang2026dreamfuse,
+  title={DreamFuse: Towards Realistic and Seamless Image Fusion Across Diverse Scenarios},
+  author={Huang, Junjia and Yan, Pengxiang and Liu, Jiyang and Wu, Jie and Wang, Zhao and Wang, Yitong and Wu, Xinglong and Lin, Liang and Li, Guanbin},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2026},
+  note={Accepted}
+}
