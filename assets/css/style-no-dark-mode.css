@@ -414,6 +414,44 @@ footer {
 
   #head2o2 {
     visibility: hidden; } }
+@media screen and (max-width: 768px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden; }
+
+  header {
+    padding-right: 0 !important;
+    padding-top: 2rem !important;
+    text-align: center !important;
+    width: 100% !important; }
+
+  .social-icons {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    margin-top: 15px !important; }
+
+  section {
+    padding: 2.5rem 1.5rem !important;
+    border: none !important;
+    width: 100% !important;
+    float: none !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-x: hidden; }
+
+  h1 {
+    font-size: 24px !important; }
+
+  h2 {
+    font-size: 20px !important; }
+
+  .wrapper {
+    padding: 0 10px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-x: hidden; } }
 @media print {
   body {
     padding: 0.4in;

@@ -531,6 +531,10 @@ footer {
 
 /* Mobile Responsiveness Override */
 @media screen and (max-width: 768px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden; }
+
   header {
     padding-right: 0 !important;
     padding-top: 2rem !important;
@@ -557,7 +561,10 @@ footer {
     padding: 2.5rem 1.5rem !important;
     border: none !important;
     width: 100% !important;
-    float: none !important; }
+    float: none !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-x: hidden; }
 
   h1 {
     font-size: 24px !important; }
@@ -567,4 +574,7 @@ footer {
 
   .wrapper {
     padding: 0 10px !important;
-    width: 100% !important; } }
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-x: hidden; } }
