@@ -1,0 +1,6 @@
+@inproceedings{huang2026dreamshot,
+  title={DreamShot: Personalized Storyboard Synthesis with Video Diffusion Prior},
+  author={Junjia Huang, Binbin Yang, Pengxiang Yan, JiyangLiu, Bin Xia, Zhao Wang, Yitong Wang, Liang Lin, Guanbin Li},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026}
+}
